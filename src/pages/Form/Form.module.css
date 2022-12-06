@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+
+.form_container {
+  display: block;
+  max-width: 400px;
+  margin: 10vh auto;
+  position: relative;
+}
+
+.form_container h1 {
+  font-family: 'Lobster Two', cursive;
+  text-align: left;
+  font-size: 3.4em;
+}
+
+.form_container button {
+  display: flex;
+  padding: 14px;
+  margin: 10px 2px;
+}
+
+.link_view_users {
+  background-color: #e9ebec;
+  color: #252222bd;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 445px) {
+  .form_container {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 322px) {
+  .link_view_users {
+    display: block;
+    position: relative;
+    margin: 10px 0;
+  }
+
+  .form_container button {
+    width: 100%;
+  }
+}
