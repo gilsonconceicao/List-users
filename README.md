@@ -1,6 +1,14 @@
 # List Users
 
-## Available Scripts
+Application created with TypeScript and React. Form validation with yup and your methods.
+
+> Used of application: 
+  - yup (for validation form data); 
+  - Material UI (in components as input);
+  - Interface/type (typing form data);
+  - localStroage (for save data users created);
+
+> ## Available Scripts
 
 In the project directory, you can run:
 
